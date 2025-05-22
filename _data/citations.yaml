@@ -1,2 +1,41 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1109/JBHI.2025.3562090
+  title: 'FedKDC: Consensus-Driven Knowledge Distillation for Personalized Federated
+    Learning in EEG-Based Emotion Recognition'
+  authors:
+  - Xihang Qiu
+  - Wanyong Qiu
+  - Ye Zhang
+  - Kun Qian
+  - Chun Li
+  - Bin Hu
+  - "Bj\xF6rn W. Schuller"
+  - Yoshiharu Yamamoto
+  publisher: IEEE Journal of Biomedical and Health Informatics
+  date: '2025-01-01'
+  link: https://doi.org/g9k25g
+  description: "Federated learning (FL) has gained prominence in EEG-based emotion\
+    \ recognition due to its ability to enable secure collaborative training without\
+    \ centralized data. \nHowever, traditional FL faces challenges due to model and\
+    \ data heterogeneity in smart healthcare settings. \nFor example, medical institutions\
+    \ have varying computational resources, which creates a need for personalized\
+    \ local models. \nMoreover, EEG data from medical institutions typically face\
+    \ data heterogeneity issues stemming from limitations in participant availability,\
+    \ ethical constraints, and cultural differences among subjects, which can slow\
+    \ model convergence and degrade model performance. \nTo address these challenges,\
+    \ we propose FedKDC, a novel FL framework that incorporates clustered knowledge\
+    \ distillation (CKD). \nThis method introduces a consensus-based distributed learning\
+    \ mechanism to facilitate the clustering process. \nIt then enhances the convergence\
+    \ speed through intraclass distillation and reduces the negative impact of heterogeneity\
+    \ through interclass distillation. \nAdditionally, we introduce a DriftGuard mechanism\
+    \ to mitigate client drift, along with an entropy reducer to decrease the entropy\
+    \ of aggregated knowledge. \nThe framework is validated on the SEED, SEED-IV,\
+    \ SEED-FRA, and SEED-GER datasets, demonstrating its effectiveness in scenarios\
+    \ where both the data and the models are heterogeneous. \nExperimental results\
+    \ show that FedKDC outperforms other FL frameworks in emotion recognition, achieving\
+    \ a maximum average accuracy of 85.2%, and in convergence efficiency, with faster\
+    \ and more stable convergence. \nOur code is made publicly available at: https://github.com/wdqdp/FedKDC.\n"
+  image: images/JBHI_2025_FedKDC.jpg
+  plugin: sources.py
+  file: sources.yaml
