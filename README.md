@@ -5,6 +5,6 @@
 
   # bhe-aim-ipbs's Website
 
-  Visit **[bhe-aim-ipbs.github.io/bhe-aim-ipbs](https://bhe-aim-ipbs.github.io/bhe-aim-ipbs)** 🚀
+  Visit **[bhe-aim-ipbs.github.io](https://bhe-aim-ipbs.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
