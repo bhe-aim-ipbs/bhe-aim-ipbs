@@ -848,6 +848,19 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 
     </main>
+    <!-- 显示常用网站链接 -->
+    <section class="useful-links">
+      <h2>Commonly used website links</h2>
+      <div class="link-container">
+        
+          <a href="https://www.bit.edu.cn/" class="link-item">Beijing Institute of Technology</a>
+        
+          <a href="https://smt.bit.edu.cn/" class="link-item">School of Medical Technology</a>
+        
+          <a href="https://bhe-lab.org/" class="link-item">Key Laboratory of Brain Health Intelligent Evaluation and Intervention of the Ministry of Education</a>
+        
+      </div>
+    </section>
     
 
 
@@ -919,5 +932,22 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+    <style>
+      .useful-links {
+        margin-top: 20px;
+      }
+      .link-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px; /* 链接之间的间距 */
+      }
+      .link-item {
+        color: black;
+        text-decoration: none;
+      }
+      .link-item:hover {
+        text-decoration: underline; /* 鼠标悬停时显示下划线 */
+      }
+    </style>
   </body>
 </html>
