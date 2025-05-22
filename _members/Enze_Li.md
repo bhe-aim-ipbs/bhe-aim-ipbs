@@ -1,5 +1,5 @@
 ---
-name: Lin Shen
+name: Enze Li
 image: images/李恩泽_博士生.jpg
 role: phd
 description: PhD Student, 2024
