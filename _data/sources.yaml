@@ -1,23 +1,14 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
-
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1109/JBHI.2025.3562090
+  description: 
+    Federated learning (FL) has gained prominence in electroencephalogram (EEG)-based emotion recognition due to its ability to enable secure collaborative training without centralized data.
+    However, traditional FL faces challenges due to model and data heterogeneity in smart healthcare settings. 
+    For example, medical institutions have varying computational resources, which creates a need for personalized local models. 
+    Moreover, EEG data from medical institutions typically face data heterogeneity issues stemming from limitations in participant availability, ethical constraints, and cultural differences among subjects, which can slow model convergence and degrade model performance. 
+    To address these challenges, we propose FedKDC, a novel FL framework that incorporates clustered knowledge distillation (CKD). 
+    This method introduces a consensus-based distributed learning mechanism to facilitate the clustering process. 
+    It then enhances the convergence speed through intraclass distillation and reduces the negative impact of heterogeneity through interclass distillation. 
+    Additionally, we introduce a DriftGuard mechanism to mitigate client drift, along with an entropy reducer to decrease the entropy of aggregated knowledge. 
+    The framework is validated on the SEED, SEED-IV, SEED-FRA, and SEED-GER datasets, demonstrating its effectiveness in scenarios where both the data and the models are heterogeneous. 
+    Experimental results show that FedKDC outperforms other FL frameworks in emotion recognition, achieving a maximum average accuracy of 85.2%, and in convergence efficiency, with faster and more stable convergence. 
+    Our code is made publicly available at: https://github.com/wdqdp/FedKDC.  
+  image: images/JBHI_2025_FedKDC.jpg
