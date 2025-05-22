@@ -1,35 +1,27 @@
 ---
 title: Team
 nav:
-  order: 2
+  order: 1
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include list.html data="members" component="portrait" filter="role == 'professor'" %}
+{% include list.html data="members" component="portrait" filter="role =='researcher'" %}
 
 {% include section.html %}
 
-{% capture content %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and description == 'PhD Student, 2023'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and description == 'PhD Student, 2024'" %}
+{% include list.html data="members" component="portrait" filter="role =='master' and description == 'Master Student, 2023'" %}
+{% include list.html data="members" component="portrait" filter="role =='master' and description == 'Master Student, 2024'" %}
+{% include list.html data="members" component="portrait" filter="role =='master' and description == 'Master Student, 2025'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and description == 'Bachelor Student, 2021'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and description == 'Bachelor Student, 2022'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and description == 'Bachelor Student, 2023'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and description == 'Bachelor Student, 2024'" %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+<h2 style="text-align: center;">Graduate</h2>
