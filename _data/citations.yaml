@@ -39,4 +39,123 @@
   image: images/JBHI_2025_FedKDC.jpg
   plugin: sources.py
   file: sources.yaml
-
+- id: doi:10.34133/cbsystems.0152
+  title: Federated Abnormal Heart Sound Detection with Weak to No Labels
+  authors:
+  - Wanyong Qiu
+  - Chen Quan
+  - Yongzi Yu
+  - Eda Kara
+  - Kun Qian
+  - Bin Hu
+  - "Bj\xF6rn W. Schuller"
+  - Yoshiharu Yamamoto
+  publisher: Cyborg and Bionic Systems
+  date: '2024-09-10'
+  link: https://doi.org/g8rqsr
+  description: "Cardiovascular diseases are a prominent cause of mortality, emphasizing\
+    \ the need for early prevention and diagnosis. Utilizing artificial intelligence\
+    \ (AI) models, heart sound analysis emerges as a noninvasive and universally applicable\
+    \ approach for assessing cardiovascular health conditions. \nHowever, real-world\
+    \ medical data are dispersed across medical institutions, forming \u201Cdata islands\u201D\
+    \ due to data sharing limitations for security reasons. \nTo this end, federated\
+    \ learning (FL) has been extensively employed in the medical field, which can\
+    \ effectively model across multiple institutions. \nAdditionally, conventional\
+    \ supervised classification methods require fully labeled data classes, e.g.,\
+    \ binary classification requires labeling of positive and negative samples. \n\
+    Nevertheless, the process of labeling healthcare data is time-consuming and labor-intensive,\
+    \ leading to the possibility of mislabeling negative samples. \nIn this study,\
+    \ we validate an FL framework with a naive positive-unlabeled (PU) learning strategy.\
+    \ Semisupervised FL model can directly learn from a limited set of positive samples\
+    \ and an extensive pool of unlabeled samples. \nOur emphasis is on vertical-FL\
+    \ to enhance collaboration across institutions with different medical record feature\
+    \ spaces. \nAdditionally, our contribution extends to feature importance analysis,\
+    \ where we explore 6 methods and provide practical recommendations for detecting\
+    \ abnormal heart sounds. \nThe study demonstrated an impressive accuracy of 84%,\
+    \ comparable to outcomes in supervised learning, thereby advancing the application\
+    \ of FL in abnormal heart sound detection.\n"
+  image: images/qiu_cbs.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/JBHI.2024.3428512
+  title: 'Fed-MStacking: Heterogeneous Federated Learning With Stacking Misaligned
+    Labels for Abnormal Heart Sound Detection'
+  authors:
+  - Wanyong Qiu
+  - Yifan Feng
+  - Yuying Li
+  - Yi Chang
+  - Kun Qian
+  - Bin Hu
+  - Yoshiharu Yamamoto
+  - "Bj\xF6rn W. Schuller"
+  publisher: IEEE Journal of Biomedical and Health Informatics
+  date: '2024-07-16'
+  link: https://doi.org/g9k3rf
+  description: "Ubiquitous sensing has been widely applied in smart healthcare, providing\
+    \ an opportunity for intelligent heart sound auscultation. \nHowever, smart devices\
+    \ contain sensitive information, raising user privacy concerns. \nTo this end,\
+    \ federated learning (FL) has been adopted as an effective solution, enabling\
+    \ decentralised learning without data sharing, thus preserving data privacy in\
+    \ the Internet of Health Things (IoHT). \nNevertheless, traditional FL requires\
+    \ the same architectural models to be trained across local clients and global\
+    \ servers, leading to a lack of model heterogeneity and client personalisation.\
+    \ \nFor medical institutions with private data clients, this study proposes Fed-MStacking,\
+    \ a heterogeneous FL framework that incorporates a stacking ensemble learning\
+    \ strategy to support clients in building their own models. \nThe secondary objective\
+    \ of this study is to address scenarios involving local clients with data characterised\
+    \ by inconsistent labelling. \nSpecifically, the local client contains only one\
+    \ case type, and the data cannot be shared within or outside the institution.\
+    \ \nTo train a global multi-class classifier, we aggregate missing class information\
+    \ from all clients at each institution and build meta-data, which then participates\
+    \ in FL training via a meta-learner. \nWe apply the proposed framework to a multi-institutional\
+    \ heart sound database. The experiments utilise random forests (RFs), feedforward\
+    \ neural networks (FNNs), and convolutional neural networks (CNNs) as base classifiers.\
+    \ \nThe results show that the heterogeneous stacking of local models performs\
+    \ better compared to homogeneous stacking.\n"
+  image: images/qiu_JBHI.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TBME.2024.3393557
+  title: 'Heart Sound Abnormality Detection From Multi-Institutional Collaboration:
+    Introducing a Federated Learning Framework'
+  authors:
+  - Wanyong Qiu
+  - Chen Quan
+  - Lixian Zhu
+  - Yongzi Yu
+  - Zhihua Wang
+  - Yu Ma
+  - Mengkai Sun
+  - Yi Chang
+  - Kun Qian
+  - Bin Hu
+  - Yoshiharu Yamamoto
+  - "Bj\xF6rn W. Schuller"
+  publisher: IEEE Transactions on Biomedical Engineering
+  date: '2024-05-03'
+  link: https://doi.org/g9k3rg
+  description: "Objective: Early diagnosis of cardiovascular diseases is a crucial\
+    \ task in medical practice. \nWith the application of computer audition in the\
+    \ healthcare field, artificial intelligence (AI) has been applied to clinical\
+    \ non-invasive intelligent auscultation of heart sounds to provide rapid and effective\
+    \ pre-screening. \nHowever, AI models generally require large amounts of data\
+    \ which may cause privacy issues. Unfortunately, it is difficult to collect large\
+    \ amounts of healthcare data from a single centre. \nMethods: In this study, we\
+    \ propose federated learning (FL) optimisation strategies for the practical application\
+    \ in multi-centre institutional heart sound databases. \nThe horizontal FL is\
+    \ mainly employed to tackle the privacy problem by aligning the feature spaces\
+    \ of FL participating institutions without information leakage. \nIn addition,\
+    \ techniques based on deep learning have poor interpretability due to their \u201C\
+    black-box\u201D property, which limits the feasibility of AI in real medical data.\
+    \ \nTo this end, vertical FL is utilised to address the issues of model interpretability\
+    \ and data scarcity. \nConclusion: Experimental results demonstrate that, the\
+    \ proposed FL framework can achieve good performance for heart sound abnormality\
+    \ detection by taking the personal privacy protection into account. \nMoreover,\
+    \ using the federated feature space is beneficial to balance the interpretability\
+    \ of the vertical FL and the privacy of the data. \nSignificance: This work realises\
+    \ the potential of FL from research to clinical practice, and is expected to have\
+    \ extensive application in the federated smart medical system.\n"
+  image: images/qiu_TBME.jpg
+  plugin: sources.py
+  file: sources.yaml
