@@ -21,5 +21,7 @@ nav:
 {% include list.html data="members" component="portrait" filter="role =='master' and description == 'Master Student, 2023'" %}
 {% include list.html data="members" component="portrait" filter="role =='master' and description == 'Master Student, 2024'" %}
 
+{% include section.html %}
+
 <h2 style="text-align: center;">Graduate</h2>
-{% include list.html data="members" component="portrait" filter="role =='master' and description == 'Master Student, 2021'" %}
+{% include list.html data="members" component="portrait" filter="name == 'Zhihao Bao'" %}
