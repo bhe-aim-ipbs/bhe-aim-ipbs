@@ -14,7 +14,6 @@
   image: images/JBHI_2025_FedKDC.jpg
   date: 2025-04-16
 
-
 - id: doi:10.34133/cbsystems.0152
   description: |
     Cardiovascular diseases are a prominent cause of mortality, emphasizing the need for early prevention and diagnosis. Utilizing artificial intelligence (AI) models, heart sound analysis emerges as a noninvasive and universally applicable approach for assessing cardiovascular health conditions. 
@@ -28,7 +27,6 @@
     The study demonstrated an impressive accuracy of 84%, comparable to outcomes in supervised learning, thereby advancing the application of FL in abnormal heart sound detection.
   image: images/qiu_cbs.jpg
   date: 2024-09-10
-
 
 - id: 10.1109/JBHI.2024.3428512
   description: |
@@ -59,3 +57,5 @@
     Significance: This work realises the potential of FL from research to clinical practice, and is expected to have extensive application in the federated smart medical system.
   image: images/qiu_TBME.jpg
   date: 2024-05-03
+
+
