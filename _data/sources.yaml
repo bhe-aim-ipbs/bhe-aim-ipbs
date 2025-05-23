@@ -12,3 +12,4 @@
     Experimental results show that FedKDC outperforms other FL frameworks in emotion recognition, achieving a maximum average accuracy of 85.2%, and in convergence efficiency, with faster and more stable convergence. 
     Our code is made publicly available at: https://github.com/wdqdp/FedKDC.
   image: images/JBHI_2025_FedKDC.jpg
+  date: 2025-04-16
