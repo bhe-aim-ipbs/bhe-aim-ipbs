@@ -27,7 +27,7 @@
     Additionally, our contribution extends to feature importance analysis, where we explore 6 methods and provide practical recommendations for detecting abnormal heart sounds. 
     The study demonstrated an impressive accuracy of 84%, comparable to outcomes in supervised learning, thereby advancing the application of FL in abnormal heart sound detection.
   image: images/qiu_cbs.jpg
-  date: 2025-09-10
+  date: 2024-09-10
 
 
 - id: 10.1109/JBHI.2024.3428512
@@ -58,4 +58,4 @@
     Moreover, using the federated feature space is beneficial to balance the interpretability of the vertical FL and the privacy of the data. 
     Significance: This work realises the potential of FL from research to clinical practice, and is expected to have extensive application in the federated smart medical system.
   image: images/qiu_TBME.jpg
-  date: 2025-05-03
+  date: 2024-05-03
